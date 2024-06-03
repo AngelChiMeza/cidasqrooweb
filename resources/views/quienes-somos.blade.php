@@ -16,10 +16,7 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+<
     <!-- Directorio -->
     <h3 class="text-2xl font-bold mt-8 mb-4 text-center">Directorio del CIDASQROO</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

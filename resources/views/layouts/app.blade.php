@@ -127,13 +127,11 @@
                     <div class="hidden md:flex items-center space-x-1">
                         <a href="/" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Inicio</a>
                         <div class="relative group">
-                            <a href="/nosotros" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900 flex items-center">
+                            <a href="/quienes-somos" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900 flex items-center">
                                 ¿Quienes somos?
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
                                     <path fill-rule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                                   </svg>
-
-
                             </a>
                             <!-- submenú -->
                             <div class="absolute hidden group-hover:block bg-red-800 bg-opacity-50 mt-1 z-50">
@@ -144,7 +142,7 @@
                             </div>
                         </div>
                         <div class="relative group">
-                            <a href="/nosotros" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900 flex items-center">
+                            <a href="/que-hacemos" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900 flex items-center">
                                 ¿Que hacemos?
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
                                     <path fill-rule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
@@ -160,12 +158,27 @@
                                 <a href="/directorio" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Servicios</a>
                             </div>
                         </div>
+                        <div class="relative group">
+                            <a href="/infraestructura" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900 flex items-center">
+                                Infraestructura
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
+                                    <path fill-rule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                                  </svg>
 
-                        <a href="/cursos" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Infraestructura</a>
-                        <a href="/" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Blog</a>
-                        <a href="/noticias" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Difusión</a>
+
+                            </a>
+                            <!-- submenú -->
+                            <div class="absolute hidden group-hover:block bg-red-800 mt-1 z-50">
+                                <a href="/mision" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Lobratorios</a>
+                                <a href="/directorio" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Áreas demostrativas</a>
+
+                            </div>
+                        </div>
+
+                        <a href="/blog" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Blog</a>
+                        <a href="/difusion" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Difusión</a>
                         <a href="/contacto" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Contacto</a>
-                        <a href="/" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Sistemas</a>
+                        <a href="/sistemas" class="py-7 px-3 text-gray-300 hover:text-amber-300 hover:bg-red-900">Sistemas</a>
                     </div>
                 </div>
                 <!-- menú móvil -->
@@ -182,7 +195,7 @@
         <div class="mobile-menu hidden md:hidden">
             <a href="/" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Inicio</a>
             <div class="relative">
-                <a href="/nosotros" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">¿Quienes somos?</a>
+                <a href="/quienes-somos" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">¿Quienes somos?</a>
                 <!-- submenú -->
                 <div class="hidden bg-red-800 mt-1 ml-6">
                     <a href="/mision" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">  Misión y Visión</a>
@@ -192,7 +205,7 @@
                 </div>
             </div>
             <div class="relative">
-                <a href="/nosotros" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">¿Que hacemos?</a>
+                <a href="/que-hacemos" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">¿Que hacemos?</a>
                 <!-- submenú -->
                 <div class="hidden bg-red-800 mt-1 ml-6">
                     <a href="/mision" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Investigacón</a>
@@ -201,11 +214,20 @@
                     <a href="/directorio" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Servicios</a>
                 </div>
             </div>
-            <a href="/cursos" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Infraestructura</a>
+            <div class="relative">
+                <a href="/infraestructura" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Infraestructura</a>
+                <!-- submenú -->
+                <div class="hidden bg-red-800 mt-1 ml-6">
+                    <a href="/mision" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Loboratorios</a>
+                    <a href="/directorio" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Áreas demostrativas</a>
+
+                </div>
+            </div>
+
             <a href="/" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Blog</a>
-            <a href="/noticias" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Difusión</a>
+            <a href="/difusion" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Difusión</a>
             <a href="/contacto" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Contacto</a>
-            <a href="/" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Sistemas</a>
+            <a href="/sistemas" class="block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Sistemas</a>
         </div>
     </nav>
 
