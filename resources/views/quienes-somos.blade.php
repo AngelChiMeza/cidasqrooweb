@@ -1,51 +1,84 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Nosotros
+    Quienes somos
 @endsection
 
 @section('contenido')
-<div class="max-w-screen-xl mx-auto px-4 py-6">
-    <!-- Encabezado de la Sección -->
-    <div class="text-center">
-        <h2 class="text-3xl font-bold">¿Quiénes somos?</h2>
-        <p class="text-lg mt-2">En el Centro de Innovación para el Desarrollo Apícola Sustentable de Quintana Roo, estamos dedicados a impulsar la apicultura como una fuerza vital para la sostenibilidad ambiental y el desarrollo económico de nuestra región. Conformamos una comunidad de expertos, investigadores y apicultores comprometidos con la innovación y la aplicación de prácticas sostenibles que aseguren la salud de las abejas y el equilibrio del ecosistema. Nuestro trabajo se centra en la investigación avanzada, la formación técnica y la difusión de conocimientos que contribuyan al fortalecimiento de la apicultura local, promoviendo así la biodiversidad y ofreciendo soluciones prácticas y efectivas a los desafíos del sector.</p>
-        <a href="#" class="text-blue-600 hover:text-blue-700 mt-4">Leer más de este tema</a>
+
+<div class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto p-6">
+        <div class="flex flex-col lg:flex-row items-center justify-between">
+            <div class="w-full lg:w-1/2 text-center lg:text-left mb-6 lg:mb-0">
+                <h1 class="text-3xl lg:text-5xl font-bold mb-4">¿Quiénes somos?</h1>
+                <p class="text-lg lg:text-xl mb-4">
+                    ¡Bienvenidos al Centro de Innovación para el Desarrollo Apícola Sustentable de Quintana Roo! En nuestro compromiso por fomentar una apicultura responsable y sostenible, nos enorgullece ser pioneros en ofrecer servicios avanzados de análisis que contribuyen a la salud y la calidad de los productos apícolas de nuestra región.
+                </p>
+                <a href="#" class="custom-button">Currículum institucional</a>
+            </div>
+            <div class="w-full lg:w-1/2 flex justify-center">
+                <img src="../img/quienes-somos.jpg" alt="foto quienes somos" class="max-w-full h-auto  shadow-lg">
+            </div>
+        </div>
     </div>
-<br>
-<br>
-<br>
-<br>
-<
-    <!-- Directorio -->
-    <h3 class="text-2xl font-bold mt-8 mb-4 text-center">Directorio del CIDASQROO</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Tarjeta de miembro del directorio -->
-        <div class="bg-white shadow-lg rounded-lg p-4">
-            <img src="../img/aurora.jpg" alt="" class="w-32 h-32 rounded-full mx-auto object-cover">
-            <h4 class="text-xl mt-4 font-semibold">Responsable del CIDASQROO</h4>
-            <p class="text-md">Titular: Mtra. Aurora Xolalpa Aroche</p>
-        </div>
-        <div class="bg-white shadow-lg rounded-lg p-4">
-            <img src="../img/edward.jpg" alt="" class="w-32 h-32 rounded-full mx-auto object-cover">
-            <h4 class="text-xl mt-4 font-semibold">Coordinador de P.E. Ingeniería en Sistemas de Producción Agroecologicos</h4>
-            <p class="text-md">Titular: Mtro. Edward Emmanuel Brito Estrella</p>
-        </div>
-        <div class="bg-white shadow-lg rounded-lg p-4">
-            <img src="path/to/directive3.jpg" alt="" class="w-32 h-32 rounded-full mx-autoobject-cover">
-            <h4 class="text-xl mt-4 font-semibold">Investigador po México</h4>
-            <p class="text-md">Titular: Dr. Fausto Rivero</p>
-        </div>
-        <div class="bg-white shadow-lg rounded-lg p-4">
-            <img src="path/to/directive4.jpg" alt="" class="w-32 h-32 rounded-full mx-autoobject-cover">
-            <h4 class="text-xl mt-4 font-semibold">Investigador por México</h4>
-            <p class="text-md">Titular: Dra. Mariana</p>
-        </div><div class="bg-white shadow-lg rounded-lg p-4">
-            <img src="path/to/directive4.jpg" alt="" class="w-32 h-32 rounded-full mx-autoobject-cover">
-            <h4 class="text-xl mt-4 font-semibold">Investigador por México</h4>
-            <p class="text-md">Titular: Dra. Arit de Leon</p>
+    <div class="container mx-auto py-6">
+        <h2 class="text-center text-2xl lg:text-3xl font-bold mb-6">Nuestras acciones tienen impacto en cinco áreas de interés:</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div class="flex flex-col items-center">
+                <span class="text-4xl mb-2">👤</span>
+                <p class="text-center text-lg font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-4xl mb-2">⚗️</span>
+                <p class="text-center text-lg font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-4xl mb-2">📈</span>
+                <p class="text-center text-lg font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-4xl mb-2">🎓</span>
+                <p class="text-center text-lg font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-4xl mb-2">🎓</span>
+                <p class="text-center text-lg font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </div>
     </div>
 </div>
 
+
+{{-- <div class="bg-gray-100 text-gray-800">
+    <section class="container mx-auto p-6">
+        <h1 class="text-3xl lg:text-5xl font-bold mb-4 text-center ">¿Quiénes somos?</h1>
+        <div class="text-center mb-6">
+            <p class="text-2xl italic">NUESTRA IDENTIDAD “Ser en el mundo, ser nosotros” - "Wiñikil yóok’ol kaab jée bixo’one’ - "To be in the world, to be ourselves"</p>
+        </div>
+        <hr class="custom-divider mb-6">
+
+        <div class="space-y-12">
+            <div class="flex flex-col lg:flex-row items-start lg:items-center">
+                <img src="../img/img_mision.jpg" alt="Misión" class="w-full lg:w-1/3 h-auto  shadow-lg mb-4 lg:mb-0 lg:mr-6">
+                <div class="w-full lg:w-2/3">
+                    <h2 class="text-2xl font-bold mb-4">Misión</h2>
+                    <div class="horizontal-divider"></div>
+                    <p class="text-lg mb-4">
+                        Contribuir al desarrollo socioeconómico del estado de Quintana Roo y la región, mediante la formación de profesionistas (profesional asociado, licenciatura y postgrado) y la generación y aplicación de conocimiento innovador; a través de un modelo educativo intercultural, multilingüe y con una fuerte vinculación entre los diferentes sectores a nivel local, estatal, nacional e internacional. Asimismo, reconocer e impulsar todas aquellas actividades que promuevan el estudio, desarrollo y fortalecimiento de la lengua y cultura Mayas de la Península de Yucatán.
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row items-start lg:items-center lg:flex-row-reverse">
+                <img src="../img/img_vision.jpg" alt="Visión" class="w-full lg:w-1/3 h-auto  shadow-lg mb-4 lg:mb-0 lg:ml-6">
+                <div class="w-full lg:w-2/3">
+                    <h2 class="text-2xl font-bold mb-4">Visión</h2>
+                    <div class="horizontal-divider"></div>
+                    <p class="text-lg mb-4">
+                        La Universidad Intercultural Maya de Quintana Roo es una Institución de alto nivel académico, con presencia internacional, con certificación de todos sus procesos administrativos y de gestión, con el 100% de los programas educativos acreditados, con una fuerte vinculación con su entorno y con evidencias claras de que la región se ha transformado positivamente como resultado del trabajo de los egresados de la Universidad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> --}}
 @endsection

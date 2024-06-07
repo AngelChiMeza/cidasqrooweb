@@ -8,6 +8,18 @@ Route::get('/', function () {
 Route::get('/quienes-somos', function () {
     return view('quienes-somos');
 });
+Route::get('/mision-vision', function () {
+    return view('mision-vision');
+});
+Route::get('/directorio', function () {
+    return view('directorio');
+});
+Route::get('/historia', function () {
+    return view('historia');
+});
+Route::get('/aliados', function () {
+    return view('aliados');
+});
 Route::get('/que-hacemos', function () {
     return view('que-hacemos');
 });

@@ -29,10 +29,37 @@
                 background-color: #ffb700; /* Cambia esto por el color que prefieras */
                 color: #fff; /* Cambia esto por el color que prefieras */
             }
+            .custom-button {
+            border: 2px solid #4A5568; /* Border color */
+            background-color: transparent;
+            color: #4A5568; /* Text color */
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.375rem;
+            transition: background-color 0.3s, color 0.3s;
+             }
+            .custom-divider {
+                border-top: 2px solid #E2E8F0;
+            }
+            .border-left-orange {
+                border-left: 4px solid #ED8936; /* Border color */
+                padding-left: 1rem; /* Padding to match the design */
+            }
 
+            .custom-button:hover {
+                background-color: #4A5568; /* Hover background color */
+                color: white; /* Hover text color */
+            }
+
+            .horizontal-divider {
+                border-top: 4px solid #7f1d1d;
+                width: 50px;
+                margin-top: -1rem; /* Ajusta el margen superior para que quede justo debajo del título */
+                margin-bottom: 1rem;
+                width: 100%; /* Ancho completo del contenedor */
+            }
         </style>
     </head>
-    <body>
+    <body class="bg-gray-100">
         <!-- Encabezado de la página -->
     <header>
         <div class=" max-w-8xl justify-between mx-auto mt-4 md:mt-2 flex flex-col md:flex-row items-start ">
@@ -121,7 +148,7 @@
                             </a>
                             <!-- Submenú -->
                             <div class="absolute hidden group-hover:block bg-red-800 bg-opacity-80 mt-1 z-50">
-                                <a href="/mision" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Misión y Visión</a>
+                                <a href="/mision-vision" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Misión y Visión</a>
                                 <a href="/directorio" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Directorio</a>
                                 <a href="/historia" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Historia</a>
                                 <a href="/aliados" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Aliados</a>
@@ -178,7 +205,7 @@
                 <a href="/quienes-somos" class="menu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">¿Quienes somos?</a>
                 <!-- Submenú -->
                 <div class="submenu hidden bg-red-800 mt-1 ml-6">
-                    <a href="/mision" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Misión y Visión</a>
+                    <a href="/mision-vision" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Misión y Visión</a>
                     <a href="/directorio" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Directorio</a>
                     <a href="/historia" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Historia</a>
                     <a href="/aliados" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Aliados</a>
@@ -376,7 +403,7 @@
                         <p class="text-red-800 text-2xl font-bold ">CIDASQROO</p>
                         <div class="flex flex-col">
                             <a href="/" class="py-.9 text-gray-800 hover:text-red-800 hover:bg-gray-300 text-1xl font-extralight text-base italic">Inicio</a>
-                            <a href="/nosotros" class="py-.9 text-gray-800 hover:text-red-800 hover:bg-gray-300 text-1xl font-extralight text-base italic">¿Quienes somos?</a>
+                            <a href="/quienes-somos" class="py-.9 text-gray-800 hover:text-red-800 hover:bg-gray-300 text-1xl font-extralight text-base italic">¿Quienes somos?</a>
                             <a href="/servicios" class="py-.9 text-gray-800 hover:text-red-800 hover:bg-gray-300 text-1xl font-extralight text-base italic">¿Que hacemos?</a>
                             <a href="/cursos" class="py-.9 text-gray-800 hover:text-red-800 hover:bg-gray-300 text-1xl font-extralight text-base italic">Infraestructura</a>
                             <a href="/" class="py-.9 text-gray-800 hover:text-red-800 hover:bg-gray-300 text-1xl font-extralight text-base italic">Blog</a>
