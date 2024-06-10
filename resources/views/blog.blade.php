@@ -5,81 +5,90 @@
 @endsection
 
 @section('contenido')
-<div class="bg-white p-5">
-    <h2 class="text-3xl font-bold text-gray-800 mb-5">BLOG DE NOTICIAS</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <!-- Primer Artículo -->
-        <div class="flex flex-col bg-gray-100 p-4 rounded-lg">
-            <img src="../img/img_noticia1.jpg" alt="PEN America en crisis" class="rounded-lg mb-2">
-            <h3 class="text-lg font-semibold">PEN America: en crisis debido a las protestas de escritores por su postura sobre la guerra en Gaza</h3>
-            <p class="text-gray-600 text-sm mb-2">RIALTA STAFF - 29 abril, 2024</p>
-            <p class="text-gray-600 text-sm mb-4">Descripción corta del artículo que acompaña la imagen mostrada.</p>
-            <a href="#" class="text-blue-600 hover:text-blue-800">Leer más</a>
+<div class="container mx-auto px-4 py-8">
+    <!-- Encabezado principal -->
+    <x-headline text="Noticias más recientes del CIDASQROO" />
+
+    <!-- Sección de noticias -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8">
+        <!-- Noticias principales -->
+        <div class="lg:col-span-2 flex flex-col justify-between">
+            <x-headline text="Taller de capacitación sobre el manejo del Protocolo de Acción ante la Intoxicación de Abejas por Plaguicidas" subtext="Durante el 27 y 28 de febrero del presente año se llevó a cabo el “Taller de capacitación sobre el manejo del Protocolo de Acción ante la Intoxicación de Abejas por Plaguicidas” en el Centro de Innovación para el Desarrollo Apícola Sustentable, dicho taller fue impulsado en coordinación con el CIATEJ Monterrey y el Laboratorio Nacional Conahcyt de Toxicología Socioambiental LANCTOXS e impartido por el Dr. Octavio Gaspar Ramírez." />
+            <img src="../img/principal_noticia1.jpg" alt="Taller de capacitación" class="w-full h-auto mb-4">
         </div>
 
-        <!-- Segundo Artículo -->
-        <div class="flex flex-col bg-gray-100 p-4 rounded-lg">
-            <img src="../img/img_noticia2.jpg" alt="Publican 'Bartleby y yo'" class="rounded-lg mb-2">
-            <h3 class="text-lg font-semibold">Publican en español ‘Bartleby y yo’, el último libro del escritor estadounidense Gay Talese</h3>
-            <p class="text-gray-600 text-sm mb-2">Nombre del Autor - Fecha</p>
-            <p class="text-gray-600 text-sm mb-4">Descripción corta del artículo que acompaña la imagen mostrada.</p>
-            <a href="#" class="text-blue-600 hover:text-blue-800">Leer más</a>
-        </div>
-
-        <!-- Tercer Artículo -->
-        <div class="flex flex-col bg-gray-100 p-4 rounded-lg">
-            <img src="../img/img_noticia3.jpg" alt="Artista Ernesto Neto" class="rounded-lg mb-2">
-            <h3 class="text-lg font-semibold">Artista brasileño Ernesto Neto explora el cruce de culturas entre continentes en una exposición en Lisboa</h3>
-            <p class="text-gray-600 text-sm mb-2">Nombre del Autor - Fecha</p>
-            <p class="text-gray-600 text-sm mb-4">Descripción corta del artículo que acompaña la imagen mostrada.</p>
-            <a href="#" class="text-blue-600 hover:text-blue-800">Leer más</a>
-        </div>
-
-        <!-- Cuarto Artículo -->
-        <div class="flex flex-col bg-gray-100 p-4 rounded-lg">
-            <img src="../img/img_noticia4.jpeg" alt="Ceramista Toshiko Takaezu" class="rounded-lg mb-2">
-            <h3 class="text-lg font-semibold">Inauguran retrospectiva itinerante de la ceramista Toshiko Takaezu en Estados Unidos</h3>
-            <p class="text-gray-600 text-sm mb-2">Nombre del Autor - Fecha</p>
-            <p class="text-gray-600 text-sm mb-4">Descripción corta del artículo que acompaña la imagen mostrada.</p>
-            <a href="#" class="text-blue-600 hover:text-blue-800">Leer más</a>
+        <!-- Otras noticias -->
+        <div class="grid grid-cols-1 gap-6 flex flex-col h-full">
+            <div class="flex-1 flex flex-col">
+                <x-news-card
+                    image="../img/noticia3.png"
+                    title="Intercambio de experiencias con el Centro de Atención Múltiple (CAM) de José María Morelos con niños desde los 4 hasta los 12 años."
+                    description="El pasado 02 de febrero del presente año, el Centro de Innovación para el Desarrollo Apícola Sustentable en Quintana Roo, realizó un intercambio de experiencias con el Centro de Atención Múltiple (CAM) de José María Morelos, para lo cual se recibió un grupo de niños desde 4 hasta los 12 años."
+                />
+            </div>
+            <div class="flex-1 flex flex-col">
+                <x-news-card
+                    image="../img/noticia2.png"
+                    title="Salidas a campo entre enero y febrero"
+                    description="Uno de los ejes principales que tiene el Centro de Innovación para el Desarrollo Apícola Sustentable en Quintana Roo es la vinculación comunitaria, por ello durante el mes de enero y dentro del marco del proyecto “Impulso a la Producción de la Meliponicultura para el Fortalecimiento de la Seguridad y Soberanía Alimentaria en Defensa del Territorio Biocultural en Municipios del Estado de Quintana Roo”."
+                />
+            </div>
         </div>
     </div>
 </div>
+<div class="container mx-auto px-4 py-8">
+    <!-- Encabezado principal -->
+    <h1 class="text-2xl font-bold mb-6">Noticias más recientes</h1>
 
-{{-- <div class="bg-white p-5">
-    <h2 class="text-2xl font-bold text-gray-800 mb-3">BLOG DE NOTICIAS</h2>
-    <div class="grid grid-rows-5 grid-flow-col  gap-4">
-        <div class="row-span-3">
-            <img src="../img/img_noticia1.jpg" alt="Descripción de la imagen" class="w-full h-auto object-cover">
-            <h3 class="text-lg font-semibold">PEN America: en crisis debido a las protestas de escritores por su postura sobre la guerra en Gaza</h3>
-            <p class="text-gray-600 text-sm">RIALTA STAFF - 29 abril, 2024</p>
-        </div>
-        <div class="row-span-2 col-span-2">
-            <img src="../img/img_noticia2.jpg" alt="Descripción de la imagen" class="w-full h-auto object-cover">
-            <h3 class="text-lg font-semibold">Publican en español ‘Bartleby y yo’, el último libro del escritor estadounidense Gay Talese</h3>
-            <p class="text-gray-600 text-sm">Nombre del Autor - Fecha</p>
-        </div>
-        <div class="row-span-1">
-            <img src="../img/img_noticia3.jpg" alt="Descripción de la imagen" class="w-full h-auto object-cover">
-            <h3 class="text-lg font-semibold">Artista brasileño Ernesto Neto explora el cruce de culturas entre continentes en una exposición en Lisboa</h3>
-            <p class="text-gray-600 text-sm">Nombre del Autor - Fecha</p>
-        </div>
-        <div class="row-span-1">
-            <img src="../img/img_noticia4.jpeg" alt="Descripción de la imagen" class="w-full h-auto object-cover">
-            <h3 class="text-lg font-semibold">Inauguran retrospectiva itinerante de la ceramista Toshiko Takaezu en Estados Unidos</h3>
-            <p class="text-gray-600 text-sm">Nombre del Autor - Fecha</p>
-        </div>
-    </div>
-</div> --}}
-<div class="flex flex-col md:flex-row md:items-center bg-white p-4 shadow-md">
-    <img src="../img/img_noticia2.jpg" alt="Descripción de la imagen" class="w-full md:w-1/3 h-auto object-cover mb-4 md:mb-0 md:mr-4">
-    <div class="space-y-2">
-        <h3 class="text-xl font-semibold text-gray-900">Bruselas acoge hasta julio la primera entrega de ‘Imagine!’, una muestra itinerante para celebrar...</h3>
-        <p class="text-gray-500 text-sm">Blog de Noticias | RIALTA STAFF - 28 abril, 2024</p>
-        <p class="text-gray-600">Imagine! 100 Years of International Surrealism, una amplia exposición itinerante que reúne más de 130 piezas, incluidas no pocas de grandes maestros de la vanguardia como Max Ernst, Giorgio de Chirico, Salvador Dalí, Joan...</p>
-        <button class="text-blue-600 hover:text-blue-800">Leer más</button>
+    <!-- Sección de noticias -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Tarjeta de noticias -->
+        <x-news-card
+            image="../img/noticia3.png"
+            title="FGR revela que no hay asuntos pendientes con Carlos Ahumada, empresario señalado de fraude"
+            description=""
+        />
+        <x-news-card
+            image="../img/noticia3.png"
+            title="Calendario SEP Ciclo Escolar 2024 - 2025: cuándo inician y clases en educación básica"
+            description=""
+        />
+        <x-news-card
+            image="../img/noticia3.png"
+            title="Cacomixtle es captado en zonas de Nuevo León; expertos piden no tocarlo"
+            description=""
+        />
+        <x-news-card
+            image="../img/noticia3.png"
+            title="¿De qué murió Pato Levy, hijo de Talina Fernández?"
+            description=""
+        />
+        <x-news-card
+            image="../img/noticia3.png"
+            title="Corona Capital 2024: estas son las fechas en las que se realizará el festival"
+            description=""
+        />
+        <x-news-card
+            image="../img/noticia3.png"
+            title="Por qué Ángela Aguilar no acompañó a Christian Nodal a su show del Auditorio Nacional"
+            description=""
+        />
+        <x-news-card
+            image="../img/noticia3.png"
+            title="Otra noticia relevante"
+            description=""
+        />
+        <x-news-card
+            image="../img/noticia3.png"
+            title="Más noticias"
+            description=""
+        />
+        <x-news-card
+            image="../img/noticia3.png"
+            title="Últimas noticias"
+            description=""
+        />
     </div>
 </div>
-
 
 @endsection
