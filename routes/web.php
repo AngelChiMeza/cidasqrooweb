@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\InfraestructuraController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -23,9 +23,11 @@ Route::get('/aliados', function () {
 Route::get('/que-hacemos', function () {
     return view('que-hacemos');
 });
-Route::get('/infraestructura', function () {
-    return view('infraestructura');
-});
+// Route::get('/infraestructura', function () {
+//     return view('infraestructura');
+// });
+Route::get('/infraestructura', [InfraestructuraController::class, 'index']);
+
 Route::get('/difusion', function () {
     return view('difusion');
 });

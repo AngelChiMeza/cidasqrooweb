@@ -57,6 +57,39 @@
                 margin-bottom: 1rem;
                 width: 100%; /* Ancho completo del contenedor */
             }
+            .timeline-container {
+            position: relative;
+        }
+            .timeline-item {
+                position: relative;
+            }
+            .timeline-item::before {
+                content: '';
+                position: absolute;
+                width: 2px;
+                height: 100%;
+                background-color: #D1D5DB;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .timeline-circle {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 10;
+                border-width: 2px;
+            }
+            .bg-red-900-with-border {
+                background-color: #7F1D1D;
+                border-color: #FCD34D;
+            }
+            .bg-amber-300-with-border {
+                background-color: #FCD34D;
+                border-color: #7F1D1D;
+                color: #7F1D1D;
+            }
         </style>
     </head>
     <body class="bg-gray-100">
