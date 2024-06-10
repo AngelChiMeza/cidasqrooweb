@@ -24,7 +24,7 @@ Route::get('/que-hacemos', function () {
     return view('que-hacemos');
 });
 Route::get('/areas-demostrativas', function () {
-    return view('infraestructura');
+    return view('areas-demostrativas');
 });
 Route::get('/infraestructura', [InfraestructuraController::class, 'index']);
 

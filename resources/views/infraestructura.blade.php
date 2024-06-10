@@ -10,19 +10,19 @@
         <!-- Sección principal -->
         <div class="w-full lg:w-3/4 pr-0 lg:pr-8">
             <template x-if="selectedLaboratorio === 'patologia-apicola'">
-                <x-laboratorios.patologia-apicola />
+                @include('components.laboratorios.patologia-apicola')
             </template>
             <template x-if="selectedLaboratorio === 'inocuidad-calidad-miel'">
-                <x-laboratorios.inocuidad-calidad-miel />
+                @include('components.laboratorios.inocuidad-calidad-miel')
             </template>
             <template x-if="selectedLaboratorio === 'lab-uhplc'">
-                <x-laboratorios.lab-uhplc />
+                @include('components.laboratorios.lab-uhplc')
             </template>
             <template x-if="selectedLaboratorio === 'biologia-molecular'">
-                <x-laboratorios.biologia-molecular />
+                @include('components.laboratorios.biologia-molecular')
             </template>
             <template x-if="selectedLaboratorio === 'conservacion-especies'">
-                <x-laboratorios.conservacion-especies />
+                @include('components.laboratorios.conservacion-especies')
             </template>
             <!-- Añadir más templates para otros laboratorios -->
         </div>
