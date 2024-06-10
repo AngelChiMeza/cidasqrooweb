@@ -1,5 +1,6 @@
 import './bootstrap';
 import 'flowbite';
+import 'alpinejs';
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuButton = document.querySelector('.mobile-menu-button');
     const mobileMenu = document.querySelector('.mobile-menu');

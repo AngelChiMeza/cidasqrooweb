@@ -12,6 +12,7 @@
         <link rel="icon" href="{{ asset('favicon.ico') }}">
 
         <!-- Styles -->
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @vite(['resources/css/app.css','resources/js/app.js'])
 
         <style>
@@ -211,7 +212,7 @@
                             </a>
                             <!-- Submenú -->
                             <div class="absolute hidden group-hover:block bg-red-800 mt-1 z-50">
-                                <a href="/laboratorios" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Laboratorios</a>
+                                <a href="/infraestructura" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Laboratorios</a>
                                 <a href="/areas-demostrativas" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Áreas demostrativas</a>
                             </div>
                         </div>

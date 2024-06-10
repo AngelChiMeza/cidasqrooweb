@@ -23,10 +23,11 @@ Route::get('/aliados', function () {
 Route::get('/que-hacemos', function () {
     return view('que-hacemos');
 });
-// Route::get('/infraestructura', function () {
-//     return view('infraestructura');
-// });
+Route::get('/areas-demostrativas', function () {
+    return view('infraestructura');
+});
 Route::get('/infraestructura', [InfraestructuraController::class, 'index']);
+
 
 Route::get('/difusion', function () {
     return view('difusion');
