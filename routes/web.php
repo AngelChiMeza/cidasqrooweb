@@ -23,6 +23,15 @@ Route::get('/aliados', function () {
 Route::get('/que-hacemos', function () {
     return view('que-hacemos');
 });
+Route::get('/proyectos-incidencia', function () {
+    return view('proyectos-incidencia');
+});
+Route::get('/proyectos-vinculacion', function () {
+    return view('proyectos-vinculacion');
+});
+Route::get('/servicios', function () {
+    return view('servicios');
+});
 Route::get('/areas-demostrativas', function () {
     return view('areas-demostrativas');
 });

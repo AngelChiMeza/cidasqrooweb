@@ -197,7 +197,7 @@
                             </a>
                             <!-- Submenú -->
                             <div class="absolute hidden group-hover:block bg-red-800 mt-1 z-50">
-                                <a href="/proyectos-investigacion" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Investigación</a>
+                                <a href="/que-hacemos" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Investigación</a>
                                 <a href="/proyectos-incidencia" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Incidencia</a>
                                 <a href="/proyectos-vinculacion" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Vinculación Comunitaria</a>
                                 <a href="/servicios" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Servicios</a>
@@ -249,7 +249,7 @@
                 <a href="/que-hacemos" class="menu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">¿Que hacemos?</a>
                 <!-- Submenú -->
                 <div class="submenu hidden bg-red-800 mt-1 ml-6">
-                    <a href="/proyectos-investigacion" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Investigación</a>
+                    <a href="/que-hacemos" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Investigación</a>
                     <a href="/proyectos-incidencia" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Incidencia</a>
                     <a href="/proyectos-vinculacion" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Proyectos de Vinculación Comunitaria</a>
                     <a href="/servicios" class="submenu-link block py-2 px-4 text-sm text-gray-300 hover:text-amber-300 hover:bg-red-900">Servicios</a>
