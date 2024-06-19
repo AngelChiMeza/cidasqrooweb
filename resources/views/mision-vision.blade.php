@@ -25,7 +25,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex flex-col lg:flex-row items-start lg:items-center lg:flex-row-reverse">
+            <div class="flex flex-col  items-start lg:items-center lg:flex-row-reverse">
                 <img src="../img/img_vision.jpg" alt="Visión" class="w-full lg:w-1/3 h-auto  shadow-lg mb-4 lg:mb-0 lg:ml-6">
                 <div class="w-full lg:w-2/3">
                     <h2 class="text-3xl font-bold mb-4">Visión</h2>

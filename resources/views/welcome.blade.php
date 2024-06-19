@@ -85,65 +85,84 @@
                 </button>
             </div>
             <div class="bg-gray-100">
-            <!-- Sección de Bienvenida -->
-            <div class="bg-gray-100 bg-opacity-80 py-8">
-                <div class="container mx-auto px-4 flex flex-col items-center md:flex-row md:justify-between">
-                    <!-- Logo -->
-                    <div class="hidden md:flex flex-col items-center md:items-start text-center md:text-left md:w-1/3">
-                        <img src="../img/logo_cidas.svg" alt="CIDASQROO Logo" class="w-32 h-32 md:w-80 md:h-80 mb-4 md:mb-0">
-                    </div>
-                    <!-- Mensaje de Bienvenida -->
-                    <div class="flex flex-col items-center md:items-start text-center md:text-left md:w-1/3">
-                        <div class="text-black">
-                            <h1 class="text-red-900 text-3xl font-bold">BIENVENIDOS</h1>
-                            <p class="mt-4">¡Bienvenidos al Centro de Innovación para el Desarrollo Apícola Sustentable de Quintana Roo! En nuestro compromiso por fomentar una apicultura responsable y sostenible, nos enorgullece ser pioneros en ofrecer servicios avanzados de análisis que contribuyen a la salud y la calidad de los productos apícolas de nuestra región.</p>
+                <!-- Sección de Bienvenida -->
+                <div class="bg-gray-100 bg-opacity-80 py-8">
+                    <div class="container mx-auto px-4 flex flex-col items-center md:flex-row md:justify-between">
+                        <!-- Logo -->
+                        <div class="hidden md:flex flex-col items-center md:items-start text-center md:text-left md:w-1/3">
+                            <img src="../img/logo_cidas.svg" alt="CIDASQROO Logo" class="w-32 h-32 md:w-80 md:h-80 mb-4 md:mb-0">
+                        </div>
+                        <!-- Mensaje de Bienvenida -->
+                        <div class="flex flex-col items-center md:items-start text-center md:text-left md:w-1/3">
+                            <div class="text-black">
+                                <h1 class="text-red-900 text-3xl font-bold">BIENVENIDOS</h1>
+                                <p class="mt-4">¡Bienvenidos al Centro de Innovación para el Desarrollo Apícola Sustentable de Quintana Roo! En nuestro compromiso por fomentar una apicultura responsable y sostenible, nos enorgullece ser pioneros en ofrecer servicios avanzados de análisis que contribuyen a la salud y la calidad de los productos apícolas de nuestra región.</p>
+                            </div>
+                        </div>
+                        <!-- Video -->
+                        <div class="w-full md:w-1/3 mt-8 md:mt-0 flex justify-center md:justify-end md:items-end">
+                            <iframe class="w-full md:w-96 h-56 md:h-64" src="https://www.youtube.com/embed/hzpU87RInho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <!-- Video -->
-                    <div class="w-full md:w-1/3 mt-8 md:mt-0 flex justify-center md:justify-end md:items-end">
-                        <iframe class="w-full md:w-96 h-56 md:h-64" src="https://www.youtube.com/embed/hzpU87RInho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
                 </div>
-            </div>
 
-            <!-- Sección de Últimas Noticias -->
-            <div class="bg-gray-100 bg-opacity-80 py-8">
-                <div class="container mx-auto px-4">
-                    <h1 class="text-3xl font-bold text-center mb-8">Últimas noticias</h1>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <!-- Noticia 1 -->
-                        <div class="bg-white shadow-md rounded-lg overflow-hidden">
-                            <img src="../img/noticia1.png" alt="El consumo de berenjena" class="w-full h-48 object-cover">
-                            <div class="p-6">
-                                <div class="bg-black text-white text-xs uppercase font-bold px-2 py-1 rounded-full inline-block">Noticias</div>
-                                <h2 class="text-lg font-semibold mt-2">Construyendo puentes hacia la búsqueda de soluciones a los problemas socioecológicos en la Península de Yucatán</h2>
-                                <p class="text-gray-500 text-sm">29 de mayo de 2024</p>
-                                <p class="mt-4 text-gray-700">El Centro de Innovación para el Desarrollo Apícola Sustentable en Quintana Roo mantiene proyectos de vinculación con otras instituciones, tal es el caso del proyecto PRONAII “Construyendo puentes hacia la búsqueda de soluciones a los problemas socioecológicos en la Península de Yucatán” en vinculación con el INECOL y otras instituciones.</p>
+                <!-- Sección de Últimas Noticias -->
+                <div class="bg-gray-100 bg-opacity-80 py-8">
+                    <div class="container mx-auto px-4">
+                        <h1 class="text-4xl font-bold  bg-red-900 text-white inline-block px-8 my-8 rounded-r-3xl">Últimas noticias</h1>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <!-- Noticia 1 -->
+                            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                                <img src="../img/noticia1.png" alt="El consumo de berenjena" class="w-full h-48 object-cover">
+                                <div class="p-6">
+                                    <div class="bg-black text-white text-xs uppercase font-bold px-2 py-1 rounded-full inline-block">Noticias</div>
+                                    <h2 class="text-lg font-semibold mt-2">Construyendo puentes hacia la búsqueda de soluciones a los problemas socioecológicos en la Península de Yucatán</h2>
+                                    <p class="text-gray-500 text-sm">29 de mayo de 2024</p>
+                                    <p class="mt-4 text-gray-700">El Centro de Innovación para el Desarrollo Apícola Sustentable en Quintana Roo mantiene proyectos de vinculación con otras instituciones, tal es el caso del proyecto PRONAII “Construyendo puentes hacia la búsqueda de soluciones a los problemas socioecológicos en la Península de Yucatán” en vinculación con el INECOL y otras instituciones.</p>
+                                </div>
                             </div>
-                        </div>
-                        <!-- Noticia 2 -->
-                        <div class="bg-white shadow-md rounded-lg overflow-hidden">
-                            <img src="../img/noticia2.png" alt="Inclusión de estudiantes" class="w-full h-48 object-cover">
-                            <div class="p-6">
-                                <div class="bg-black text-white text-xs uppercase font-bold px-2 py-1 rounded-full inline-block">Noticias</div>
-                                <h2 class="text-lg font-semibold mt-2">Salidas a campo entre enero y febrero</h2>
-                                <p class="text-gray-500 text-sm">29 de mayo de 2024</p>
-                                <p class="mt-4 text-gray-700">Uno de los ejes principales que tiene el Centro de Innovación para el Desarrollo Apícola Sustentable en Quintana Roo es la vinculación comunitaria, por ello durante el mes de enero y dentro del marco del proyecto “Impulso a la Producción de la Meliponicultura para el Fortalecimiento de la Seguridad y Soberanía Alimentaria en Defensa del Territorio Biocultural en Municipios del Estado de Quintana Roo”.</p>
+                            <!-- Noticia 2 -->
+                            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                                <img src="../img/noticia2.png" alt="Inclusión de estudiantes" class="w-full h-48 object-cover">
+                                <div class="p-6">
+                                    <div class="bg-black text-white text-xs uppercase font-bold px-2 py-1 rounded-full inline-block">Noticias</div>
+                                    <h2 class="text-lg font-semibold mt-2">Salidas a campo entre enero y febrero</h2>
+                                    <p class="text-gray-500 text-sm">29 de mayo de 2024</p>
+                                    <p class="mt-4 text-gray-700">Uno de los ejes principales que tiene el Centro de Innovación para el Desarrollo Apícola Sustentable en Quintana Roo es la vinculación comunitaria, por ello durante el mes de enero y dentro del marco del proyecto “Impulso a la Producción de la Meliponicultura para el Fortalecimiento de la Seguridad y Soberanía Alimentaria en Defensa del Territorio Biocultural en Municipios del Estado de Quintana Roo”.</p>
+                                </div>
                             </div>
-                        </div>
-                        <!-- Noticia 3 -->
-                        <div class="bg-white shadow-md rounded-lg overflow-hidden">
-                            <img src="../img/noticia3.png" alt="Simposio de Biomateriales Poliméricos" class="w-full h-48 object-cover">
-                            <div class="p-6">
-                                <div class="bg-black text-white text-xs uppercase font-bold px-2 py-1 rounded-full inline-block">Noticias</div>
-                                <h2 class="text-lg font-semibold mt-2">Intercambio de experiencias con el Centro de Atención Múltiple (CAM) de José María Morelos con niños desde los 4 hasta los 12 años.</h2>
-                                <p class="text-gray-500 text-sm">29 de mayo de 2024</p>
-                                <p class="mt-4 text-gray-700">Uno de los ejes principales que tiene el Centro de Innovación para el Desarrollo Apícola Sustentable en Quintana Roo es la vinculación comunitaria y la educación ambiental; por ello se realizó un intercambio de experiencias el pasado 02 de febrero de 2024 con el Centro de Atención Múltiple (CAM) de José María Morelos con niños desde los 4 hasta los 12 años.</p>
+                            <!-- Noticia 3 -->
+                            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                                <img src="../img/noticia3.png" alt="Simposio de Biomateriales Poliméricos" class="w-full h-48 object-cover">
+                                <div class="p-6">
+                                    <div class="bg-black text-white text-xs uppercase font-bold px-2 py-1 rounded-full inline-block">Noticias</div>
+                                    <h2 class="text-lg font-semibold mt-2">Intercambio de experiencias con el Centro de Atención Múltiple (CAM) de José María Morelos con niños desde los 4 hasta los 12 años.</h2>
+                                    <p class="text-gray-500 text-sm">29 de mayo de 2024</p>
+                                    <p class="mt-4 text-gray-700">Uno de los ejes principales que tiene el Centro de Innovación para el Desarrollo Apícola Sustentable en Quintana Roo es la vinculación comunitaria y la educación ambiental; por ello se realizó un intercambio de experiencias el pasado 02 de febrero de 2024 con el Centro de Atención Múltiple (CAM) de José María Morelos con niños desde los 4 hasta los 12 años.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="container mx-auto py-8 px-4">
+                    <div class="flex flex-wrap">
+                        <!-- Sección principal -->
+                        <div class="w-full lg:w-3/4 pr-0 lg:pr-8">
+                            <h1 class="text-4xl font-bold  bg-red-900 text-white inline-block px-8 my-8 rounded-r-3xl">Galería</h1>
+                            <x-galeria :images="[
+                                '../img/img1.jpg',
+                                'https://via.placeholder.com/300',
+                                'https://via.placeholder.com/300',
+                                'https://via.placeholder.com/300',
+                                '../img/img1.jpg',
+                                'https://via.placeholder.com/300',
+                                'https://via.placeholder.com/300',
+                                'https://via.placeholder.com/300',
+                            ]" />
+                        </div>
+                    </div>
+                 </div>
             </div>
 
 
